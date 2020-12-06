@@ -32,7 +32,9 @@ header {
 header h1 {
     font-size: 40px;
 }
-
+.menu-btn {
+    display: none;
+}
 header a {
     text-decoration: none;
     color: var(--quarternary-color);
@@ -203,14 +205,34 @@ header nav ul li {
     header h1 {
         font-size: 30px;
     }
-    nav ul {
-        margin: 0 auto;
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+    .menu-item{
+        display: none;
+        position: relative;
+    }
+    nav {
+        position: relative;
+        display: inline-block;
         width: 50%;
     }
     nav li {
-        padding: 5px;
+        padding: 10px;
+        display: none;
     }
-
+    nav ul {
+        margin: 0 0 0 50%;
+        width: 50%;
+    }
+    nav ul:hover .menu-item{
+        display: block;
+    }
+    nav ul:hover li {
+        display: block;
+        right: 30px;
+    }
     .cool-subtitle {
        position: absolute;
        bottom: 70px;
@@ -221,8 +243,6 @@ header nav ul li {
         border-right: none;
         border-bottom: 2px solid var(--quarternary-color);
     }
-
-
     #contact-me ul{
         justify-content: center;
         margin: 0 auto;
