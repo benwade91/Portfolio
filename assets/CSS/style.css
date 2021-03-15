@@ -31,6 +31,7 @@ header {
 
 header h1 {
     font-size: 40px;
+    text-shadow: 2px 2px white;
 }
 .menu-btn {
     display: none;
@@ -87,7 +88,7 @@ header nav ul li {
 }
 
 .hero {
-    background-image: url(../images/hero-img.jpeg);
+    background-image: url(../newPhotos/mtwhitney.jpeg);
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
@@ -100,6 +101,7 @@ header nav ul li {
     height: 200px;
     border-radius: 300px;
     transition: transform 2s;
+    border: #1e2022;
 
 }
 
@@ -110,6 +112,7 @@ header nav ul li {
 .cool-subtitle {
     color: var(--primary-color);
     font-size: 30px;
+    text-shadow: 2px 2px #1e2022;
 }
 .content {
     margin: 50px auto;
@@ -126,6 +129,7 @@ header nav ul li {
     height: 100px;
     align-items: center;
     font-size: 25px;
+    text-shadow: 2px 2px var(--secondary-color);
 }
 
 .words {
