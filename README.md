@@ -2,8 +2,7 @@
 # Advanced CSS Portfolio
 
 ## URL:
-https://benwade91.github.io/portfolio/
-
+https://benwade91.github.io/Portfolio/
 ## Summary: 
 The project is showing the implementation of advanced CSS techniques such ass
 Flexbox, Grid and media queries. These tools are used in this case to make a visually 
