@@ -10,4 +10,4 @@ Flexbox, Grid and media queries. These tools are used in this case to make a vis
 appealing portfolio homepage with linked images to various projects.
 
 ## Preview of Page
-![alt text](./assets/newPhotos/screenshot?raw=true)
+![alt text](./assets/newPhotos/screenshot.png?raw=true)
