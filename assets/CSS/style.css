@@ -105,9 +105,9 @@ header nav ul li {
 
 }
 
-.ben-pic img:hover {
+/* .ben-pic img:hover {
     transform: rotate(360deg);
-}
+} */
 
 .cool-subtitle {
     color: var(--primary-color);
